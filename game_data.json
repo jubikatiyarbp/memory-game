@@ -1,0 +1,17 @@
+{
+    "cardWidth": "130",  
+    "cardHeight": "130",
+    "cardSpacing": "10",
+    "cardsPerRow": "4",
+    "timeLimitInMinutes": "1",
+    "imageUrls": [
+        "static/apple.jpg",
+        "static/bottle.jpg",
+        "static/candy.jpg",
+        "static/donut.jpg",
+        "static/flower_bouquet.jpg",
+        "static/key.jpg",
+        "static/lock.jpg",
+        "static/mouse.jpg"
+    ]
+}

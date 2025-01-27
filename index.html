@@ -1,0 +1,52 @@
+<!-- 
+Author: Jubi Katiyar
+Game description --- 
+The Memory Card Game is a fun and interactive matching game where players flip cards to find pairs of identical 
+images. Players are tasked with matching all card pairs within a limited time while scoring points for each successful 
+match. The game tracks the remaining time and score in real-time, offering a challenging and engaging experience for 
+users. At the end of the game, players receive a congratulatory message if they win or a summary of their final score 
+if time runs out.
+
+Structure of code ----
+This file contains the basic layout for the game, including:
+* A canvas element for rendering the cards.
+* Buttons for starting or playing the game again.
+* Game-info seciton displaying score and timer displays for real-time updates.
+-->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Card Game</title>
+  <link rel="stylesheet" href="gameStyle.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Memory Card Game</h1>
+
+    <!-- Time Remaining and Score Display -->
+    <div id="game-info">
+      <p id="time-remaining">Time Remaining (in mins): 0:00 </p>
+      <p id="score-display">Score: 0</p>
+    </div>
+
+    <!-- Game canvas -->
+    <canvas id="gameCanvas" width="570" height="570"></canvas>
+
+    <!-- Buttons -->
+    <div id="buttons">
+      <button id="start-btn" class="start-btn">Start Game</button>
+      <button id="play-again" class="play-again-btn" hidden="true">Play Again</button>
+    </div>
+  </div>
+
+  <script src="gameScript.js"></script>
+</body>
+</html>
+
+
